@@ -1,12 +1,13 @@
 def peixe():
     while True:
         try:
-            print('ATENÇÃO, VALOR EXCENDE A 50 QUILOS, SUJEITO A MULTA DE 4,00 R$ POR QUILO')
+            print('ATENÇÃO, VALOR EXCEDENTE A 50 QUILOS, SUJEITO A MULTA DE 4,00 R$ POR QUILO')
             peso = float(input('Insirá o peso do peixe:'))
             limite = 50
             if peso > limite:
                 excesso = peso - limite
                 multa = excesso * 4
+                print(f'O peso do peixe é de: {peso:.2f}KG')
                 print(f'O valor excedente do permitido foi {excesso:.2f}KG')
                 print(f'O valor total da multa a pagar é de {multa:.2f}R$')
 
@@ -15,7 +16,7 @@ def peixe():
                       f' e está dentro do regulamento, nada a pagar!')
 
         except ValueError:
-            print('Ops, caractere incorreto, informe apenas numeros')
+            print('Ops, caractere incorreto, informe apenas numeros!')
 
         else:
             break
