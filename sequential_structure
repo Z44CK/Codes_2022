@@ -1,3 +1,8 @@
+# Toda vez que traz um peso de peixe maior que o estabelecido pelo regulamento de pesca do estado de São Paulo. 
+# (50 quilos) deve pagar uma multa de R$ 4,00 por quilo excedente. O programa lê a variável peso (peso de peixes) e calcule o excesso.
+# Gravar na variável excesso a quantidade de quilos além do limite e na variável multa o valor da multa que deverá ser pago ao exceder 50 quilos.
+
+
 def peixe():
     while True:
         try:
