@@ -1,3 +1,5 @@
+#Primeiro projeto de calculadora simples e fácil
+
 import math
 
 while True:
